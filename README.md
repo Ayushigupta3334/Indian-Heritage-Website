@@ -4,7 +4,9 @@ This project showcases India's rich cultural heritage through a beautifully desi
 
 ## 📂 Project Structure
 
-nsp project/
+
+NSP IV SEM PROJECT/
+├── Indian Heriatge Website/
 ├── index.html # Main website content 
 ├── style.css # Custom styling
 ├── kathak.jpg # Sample cultural image
