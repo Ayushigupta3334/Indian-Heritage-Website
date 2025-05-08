@@ -1,0 +1,194 @@
+body { 
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3efe0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+/* General Header Styling */
+header {
+    background-color:  #8b4513;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Left Section (Logo + Title) */
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    color:whitesmoke;
+}
+
+.title p {
+    margin: 2px 0 0;
+    font-style: italic;
+    color:whitesmoke;
+}
+
+/* Navbar Center */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #c97b2b;
+}
+
+/* Auth Buttons (Right Side) */
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: #4b2e13;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn.signup {
+    background-color: #4b2e13;
+}
+
+.btn:hover {
+    background-color: #c97b2b;
+}
+
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6; /* Improves readability */
+    margin: 0 auto; /* Centers the content */
+    max-width: 90%; /* Ensures proper alignment */
+}
+
+.logo {
+    height: 60px; /* Adjust as needed */
+    margin-right: 15px; /* Space between logo and text */
+}
+
+.container { 
+    width: 95%; 
+    margin: 20px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section { 
+    background: white; 
+    padding: 30px; 
+    margin: 20px 0; 
+    border-radius: 12px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    width: 85%;
+    text-align: center;
+}
+
+.carousel-container { 
+    width: 100%; 
+    margin: 30px 0;
+}
+
+.swiper { 
+    width: 100%; 
+    height: 450px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.swiper-slide { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: white; 
+    text-shadow: 3px 3px 6px black; 
+    border-radius: 15px;
+}
+
+.slide1 { background: url('madhubani.webp'); background-size: cover; }
+.slide2 { background: url('https://springofrhythm.com/wp-content/uploads/2021/11/kathak-dance.jpg'); background-size: cover; }
+.slide3 { background: url('https://static.businessworld.in/Untitled%20design%20-%202024-05-28T112901.389_20240528112939_original_image_27.webp'); background-size: cover; }
+
+.content { 
+    font-size: 20px; 
+    line-height: 1.8; 
+    text-align: justify;
+    padding: 10px;
+}
+
+.grid-container { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 25px; 
+    width: 100%;
+    margin-top: 20px;
+}
+
+.grid-item { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-item img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+.section {
+    
+    text-align:  center;
+}
+
+footer { 
+    background-color: #8b4513; 
+    color: white; 
+    text-align: center; 
+    padding: 15px; 
+    font-size: 16px;
+    margin-top: 30px; 
+    font-weight: bold;
+}
